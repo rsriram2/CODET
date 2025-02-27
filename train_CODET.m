@@ -1,3 +1,4 @@
+disp('test')
 mainFolder = '/Volumes/SRI/JHU COVID Research/Slices';
 sections = {'B-Line', 'Control'};
 imds = imageDatastore(fullfile(mainFolder, sections), 'LabelSource', 'foldernames', 'FileExtensions', '.mat','ReadFcn',@matRead);
